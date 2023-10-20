@@ -21,7 +21,7 @@ header a {
     cursor: pointer;
 }
 
-header img {   
+header img {
     height: 4vh;
     opacity: 0.5;
     position: fixed;
@@ -38,16 +38,22 @@ section {
 section h1 {
     position: relative;
     top: 15vh;
-    left: 6vw;
+    padding: 0 0 0 6vw;
     background: none;
     font-size: 7vh;
     color: #0B090A;
+    width: auto;
 }
 
 footer {
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-flex;
     align-items: center;
     position: fixed;
     bottom: 1vh;
+    padding: 0 1vw;
+}
+
+#rights {
+    opacity: 0.2;
+    margin-left: 50vw;
 }
