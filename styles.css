@@ -57,3 +57,25 @@ footer {
     opacity: 0.2;
     margin-left: 50vw;
 }
+
+
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+
+    header {
+        height: 10vh;
+        display: inline-grid;
+        align-content: space-evenly;
+        justify-items: end;
+        padding: 0 70vw;
+    }
+
+    footer {
+        display: block;
+    }
+
+    #rights {
+        margin-left: 0;
+    }
+
+}
