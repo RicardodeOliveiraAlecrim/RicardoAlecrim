@@ -11,7 +11,7 @@
 }
 
 header {
-    height: 05vh;
+    height: 10vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,8 +24,8 @@ header a {
 header img {
     height: 4vh;
     opacity: 0.5;
-    position: fixed;
-    left: 5vw;
+    position: relative;
+    right: 5%;
     cursor: pointer;
 }
 
@@ -45,18 +45,22 @@ section h1 {
     width: auto;
 }
 
+article {
+  height: 50vh;
+  padding: 10vh 10vw;
+}
+
 footer {
     display: inline-flex;
     align-items: center;
-    position: fixed;
-    bottom: 1vh;
     padding: 0 1vw;
 }
 
 #rights {
     opacity: 0.2;
-    margin-left: 50vw;
+    margin-left: 60vw;
 }
+
 
 
 
@@ -67,15 +71,34 @@ footer {
         display: inline-grid;
         align-content: space-evenly;
         justify-items: end;
-        padding: 0 70vw;
+        position: relative;
+        left: 70vw;    
+        bottom: 2vh;
     }
+
+  header img {     
+    right: 75vw;
+    top: 5vh;
+   }
 
     footer {
         display: block;
     }
 
+
+
+    #me {
+      height: 35vh;
+      width: 35vh;
+      border-radius: 50%;
+      position: relative;
+      top: 5vh;
+      left: 5vw;
+    }
+  
     #rights {
         margin-left: 0;
     }
 
 }
+
