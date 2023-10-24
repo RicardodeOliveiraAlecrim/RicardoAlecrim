@@ -64,19 +64,27 @@ footer {
 
 #more {
     display: flex;
-    margin: 2vh auto;
+    margin: 5vh auto;
     border-radius: 5px;
     background: #D0D2CF;
     border-width: 0;
-    box-shadow: 2px 2px 2px black;
-  
+    box-shadow: 2px 2px 2px black;  
 }
+
 
 #more:hover {
     opacity: 0.8;
 }
 
 #more:active {
+    opacity: 0.5;   
+}
+
+.links:hover {
+    opacity: 0.8;
+}
+
+.links:active {
     opacity: 0.5;   
 }
 
@@ -106,14 +114,12 @@ footer {
     }
 
 
-
     #me {
         height: 35vh;
         width: 35vh;
-        border-radius: 50%;
         position: relative;
-        top: 5vh;
-        left: 5vw;
+        top: 2vh;
+        height: auto;        
     }
 
     #rights {
