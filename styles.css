@@ -46,8 +46,8 @@ section h1 {
 }
 
 article {
-  height: 50vh;
-  padding: 10vh 10vw;
+    height: 50vh;
+    padding: 10vh 10vw;
 }
 
 footer {
@@ -61,6 +61,25 @@ footer {
     margin-left: 60vw;
 }
 
+#more {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #D0D2CF;
+    border-width: 0;
+    box-shadow: 2px 2px 2px black;
+}
+
+#more:hover {
+    opacity: 0.8;
+}
+
+#more:active {
+    opacity: 0.5;
+   
+}
+
+
 
 
 
@@ -72,14 +91,14 @@ footer {
         align-content: space-evenly;
         justify-items: end;
         position: relative;
-        left: 70vw;    
+        left: 70vw;
         bottom: 2vh;
     }
 
-  header img {     
-    right: 75vw;
-    top: 5vh;
-   }
+    header img {
+        right: 75vw;
+        top: 5vh;
+    }
 
     footer {
         display: block;
@@ -88,17 +107,18 @@ footer {
 
 
     #me {
-      height: 35vh;
-      width: 35vh;
-      border-radius: 50%;
-      position: relative;
-      top: 5vh;
-      left: 5vw;
+        height: 35vh;
+        width: 35vh;
+        border-radius: 50%;
+        position: relative;
+        top: 5vh;
+        left: 5vw;
     }
-  
+
+
+
     #rights {
         margin-left: 0;
     }
 
 }
-
