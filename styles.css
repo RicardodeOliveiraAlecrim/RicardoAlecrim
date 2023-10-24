@@ -8,6 +8,7 @@
     scroll-padding-top: 2rem;
     font-family: 'Cabin', sans-serif;
     background: #945B3A;
+      
 }
 
 header {
@@ -63,11 +64,12 @@ footer {
 
 #more {
     display: flex;
-    margin: 0 auto;
+    margin: 2vh auto;
     border-radius: 5px;
     background: #D0D2CF;
     border-width: 0;
     box-shadow: 2px 2px 2px black;
+  
 }
 
 #more:hover {
@@ -75,8 +77,7 @@ footer {
 }
 
 #more:active {
-    opacity: 0.5;
-   
+    opacity: 0.5;   
 }
 
 
@@ -114,8 +115,6 @@ footer {
         top: 5vh;
         left: 5vw;
     }
-
-
 
     #rights {
         margin-left: 0;

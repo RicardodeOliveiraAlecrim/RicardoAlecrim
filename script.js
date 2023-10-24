@@ -1,18 +1,46 @@
-const about = document.querySelector("#about-it")
+function typeWrite(elemento){
+
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = ' ';
+  textoArray.forEach(function(letra, i){   
+
+  setTimeout(function(){
+      elemento.innerHTML += letra;
+  }, 75 * i)
+
+});
+}
+
+
+
+
 const me = document.querySelector("#me")
+const takes = document.querySelector("#takes")
 const more = document.querySelector("#more")
+
+
+
+
+
+
 
 window.onload = motivation()
 
 function motivation (){
 
-let phrases = 
-
+let phrases 
+let take = 0
+  
 phrases = setInterval(function () {
-  me.innerHTML = ('oi')
-  }, 3600000)
+
+ 
+  takes.innerHTML = take
+  }, 6000)
 
 }
+
+
+
 
 function aboutMe() {
 
