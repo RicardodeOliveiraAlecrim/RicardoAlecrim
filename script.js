@@ -15,8 +15,6 @@ function typeWrite(elemento) {
 }
 
 
-
-
 const me = document.querySelector("#me")
 const takes = document.querySelector("#takes")
 const more = document.querySelector("#more")
@@ -25,16 +23,13 @@ const more = document.querySelector("#more")
 let index = 0;
 
 function nextMessage() {
-  if (index < motivation.lenght) {
+  
+  if (index < motivation.length) {
     takes.innerHTML = motivation[index];
     index++;
-    setTimeout(nextMessage, 6000);
+    setTimeout(nextMessage, 1000);    
   }
 }
-
-
-nextMessage()
-
 
 
 function aboutMe() {
