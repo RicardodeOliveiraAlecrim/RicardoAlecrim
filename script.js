@@ -18,25 +18,33 @@ function typeWrite(elemento) {
 const me = document.querySelector("#me")
 const takes = document.querySelector("#takes")
 const more = document.querySelector("#more")
-
-
 let index = 0;
 
+
 function nextMessage() {
-  
+
+  takes.style.opacity = 1
+
+  me.style.opacity = 0
+
   if (index < motivation.length) {
+
     takes.innerHTML = motivation[index];
     index++;
-    setTimeout(nextMessage, 1000);    
+
+    setTimeout(nextMessage, 15000);
+
   }
+
 }
 
 
 function aboutMe() {
 
   me.style.opacity = 1
+  takes.style.opacity = 0
 
   typeWrite(me)
-  
+
 }
 
