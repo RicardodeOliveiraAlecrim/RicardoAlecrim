@@ -81,18 +81,15 @@ footer {
 
 .frame {
   display: flex;
+  overflow: hidden;
     
 }
 
 ul {
-  margin: 1vh 0;
-  
+  margin: 1vh 0;  
   
 }
 
-::-webkit-scrollbar {
-        display: none;
-}
 
 
 @media screen and (max-width: 800px) and (orientation: portrait) {
