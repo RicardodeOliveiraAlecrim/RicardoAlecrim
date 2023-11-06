@@ -20,7 +20,7 @@ const me = document.querySelector("#me")
 const more = document.querySelector("#more")
 const linkMe = document.querySelector(".links")
 const main = document.querySelector(".home")
-const jobs = document.querySelector(".job")
+const job = document.querySelector(".job")
 const contact = document.querySelector(".contact")
 let recentIndex = 0;
 
@@ -62,6 +62,18 @@ typeWrite(me)
   
 }
 
+function jobs() {
+  me.style.opacity = 1;
+ 
+}
+
+function contactMe() {
+  me.style.opacity = 1;
+
+}
+
 
 linkMe.addEventListener("click",nextMessage );
 main.addEventListener("click",  aboutMe );
+job.addEventListener("click",jobs );
+contact.addEventListener("click",contactMe );

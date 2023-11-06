@@ -79,6 +79,21 @@ footer {
   pointer-events: none;
   }
 
+.frame {
+  display: flex;
+    
+}
+
+ul {
+  margin: 1vh 0;
+  
+  
+}
+
+::-webkit-scrollbar {
+        display: none;
+}
+
 
 @media screen and (max-width: 800px) and (orientation: portrait) {
 
