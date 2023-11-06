@@ -2,49 +2,66 @@ function typeWrite(elemento) {
 
   const textoArray = elemento.innerHTML.split('');
 
-  elemento.innerHTML = ' ';
+ elemento.innerHTML = ' ';
 
   textoArray.forEach(function (letra, i) {
 
     setTimeout(function () {
 
-      elemento.innerHTML += letra;
-    }, 75 * i)
+      me.innerHTML += letra;
+   }, 5 * i)
 
-  });
+ });
+  
 }
 
 
 const me = document.querySelector("#me")
-const takes = document.querySelector("#takes")
 const more = document.querySelector("#more")
-let index = 0;
+const linkMe = document.querySelector(".links")
+const main = document.querySelector(".home")
+const jobs = document.querySelector(".job")
+const contact = document.querySelector(".contact")
+let recentIndex = 0;
+
 
 
 function nextMessage() {
 
-  takes.style.opacity = 1
+  me.style.opacity = 1;
 
-  me.style.opacity = 0
+  main.classList.remove ("disable-link")
 
-  if (index < motivation.length) {
+  function next(){
 
-    takes.innerHTML = motivation[index];
-    index++;
+  me.textContent = motivation[recentIndex];
 
-    setTimeout(nextMessage, 15000);
+  recentIndex = (recentIndex + 1) % motivation.length;  
 
+    const time = 20000;
+    setInterval(next, time);
+  
+  }  
+  
+  next()  
+  
   }
 
-}
+
 
 
 function aboutMe() {
 
-  me.style.opacity = 1
-  takes.style.opacity = 0
+  me.style.opacity = 1;
+  
+  main.classList.add ("disable-link")
 
-  typeWrite(me)
-
+  me.innerHTML = about ;
+  
+typeWrite(me)
+  
 }
 
+
+linkMe.addEventListener("click",nextMessage );
+main.addEventListener("click",  aboutMe );

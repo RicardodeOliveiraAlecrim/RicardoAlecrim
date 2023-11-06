@@ -1,0 +1,1 @@
+ const about = [`Nascido em 1992, e raizes fundadas no interior de Piracicaba/SP, lhe apresento um sonhador que acredita que se não desistir pode alcançar o que  almeja. Atualmente entre estudos e trabalho, nessa longa jornada apresento á vocês um pouco das criações e projetos alcançados pelas garras da determinação de alcançar seu destino`]

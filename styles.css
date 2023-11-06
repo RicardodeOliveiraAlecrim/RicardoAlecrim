@@ -75,8 +75,9 @@ footer {
     opacity: 0;
 }
 
-
-
+.disable-link {
+  pointer-events: none;
+  }
 
 
 @media screen and (max-width: 800px) and (orientation: portrait) {
@@ -106,7 +107,6 @@ footer {
         width: 35vh;
         position: relative;
         top: 2vh;
-        height: auto;        
     }
 
     #rights {
