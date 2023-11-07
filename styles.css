@@ -8,7 +8,7 @@
     scroll-padding-top: 2rem;
     font-family: 'Cabin', sans-serif;
     background: #945B3A;
-      
+
 }
 
 header {
@@ -47,8 +47,8 @@ section h1 {
 }
 
 article {
-    height: 50vh;
-    padding: 10vh 10vw;
+    height: auto;
+    padding: 10vh 1vw;
 }
 
 footer {
@@ -68,7 +68,7 @@ footer {
 }
 
 .links:active {
-    opacity: 0.5;   
+    opacity: 0.5;
 }
 
 #me {
@@ -76,19 +76,19 @@ footer {
 }
 
 .disable-link {
-  pointer-events: none;
-  }
+    pointer-events: none;
+}
 
-.frame {
-  display: flex;
-  overflow: hidden;
-    
+.frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 ul {
-  margin: 1vh 0;  
-  
+    margin: 1%;        
 }
+
 
 
 
