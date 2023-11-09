@@ -89,15 +89,15 @@ footer {
 .list {
   margin: 1%; 
   list-style: none;
-  width: 480px;
-  height: 250px; 
+  width: 500px;
+  height: 300px; 
   overflow: hidden;
    
 }
 
 .iframes {
-  width: 500px;
-  height: 270px;
+  width: 517px;
+  height: 317px;
   }
 
 .list :hover {
@@ -142,10 +142,10 @@ footer {
 
   .list {
     width: 60vw;
-    height: 250px;
+    height: 500px;
   }
 
   .iframes {
     width: 65vw;
-    height: 300px;
+    height: 550px;
 }
