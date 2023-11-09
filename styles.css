@@ -140,4 +140,12 @@ footer {
         margin-left: 0;
     }
 
+  .list {
+    width: 60vw;
+    height: 250px;
+  }
+
+  .iframes {
+    width: 65vw;
+    height: 300px;
 }
